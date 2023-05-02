@@ -114,5 +114,23 @@
   <ItemGroup>
     <None Include="Resources\merchant.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TAS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\muka.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kedai ma ning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ayam pukul pak jenggot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kedai yummy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DAPOER EMAKQ.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

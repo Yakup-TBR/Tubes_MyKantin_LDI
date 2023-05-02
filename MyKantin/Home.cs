@@ -31,5 +31,20 @@ namespace MyKantin
         {
 
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label_dapatkandiskon_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -132,5 +132,14 @@
   <ItemGroup>
     <None Include="Resources\DAPOER EMAKQ.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\klaim voucher.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\klaim voucher1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\geseputih.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

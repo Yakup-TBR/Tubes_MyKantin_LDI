@@ -36,6 +36,7 @@
             this.label_all1 = new System.Windows.Forms.Label();
             this.label_all2 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
@@ -47,7 +48,10 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.labeldapatdiskon = new System.Windows.Forms.Label();
+            this.labelDiskon = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
@@ -130,6 +134,18 @@
             this.groupBox1.Size = new System.Drawing.Size(360, 62);
             this.groupBox1.TabIndex = 15;
             this.groupBox1.TabStop = false;
+            // 
+            // pictureBox12
+            // 
+            this.pictureBox12.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.pictureBox12.Image = global::MyKantin.Properties.Resources.klaim_voucher1;
+            this.pictureBox12.Location = new System.Drawing.Point(46, 200);
+            this.pictureBox12.Name = "pictureBox12";
+            this.pictureBox12.Size = new System.Drawing.Size(114, 29);
+            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox12.TabIndex = 20;
+            this.pictureBox12.TabStop = false;
             // 
             // pictureBox11
             // 
@@ -244,12 +260,37 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
+            // labeldapatdiskon
+            // 
+            this.labeldapatdiskon.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labeldapatdiskon.ForeColor = System.Drawing.Color.White;
+            this.labeldapatdiskon.Location = new System.Drawing.Point(12, 9);
+            this.labeldapatdiskon.Name = "labeldapatdiskon";
+            this.labeldapatdiskon.Size = new System.Drawing.Size(171, 44);
+            this.labeldapatdiskon.TabIndex = 21;
+            this.labeldapatdiskon.Text = "Dapatkan diskon special untuk hari ini!";
+            this.labeldapatdiskon.Click += new System.EventHandler(this.labeldapatdiskon_Click);
+            // 
+            // labelDiskon
+            // 
+            this.labelDiskon.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelDiskon.ForeColor = System.Drawing.Color.White;
+            this.labelDiskon.Location = new System.Drawing.Point(320, 25);
+            this.labelDiskon.Name = "labelDiskon";
+            this.labelDiskon.Size = new System.Drawing.Size(79, 63);
+            this.labelDiskon.TabIndex = 22;
+            this.labelDiskon.Text = "Up to 50%";
+            this.labelDiskon.Click += new System.EventHandler(this.labelDiskon_Click);
+            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(482, 713);
+            this.Controls.Add(this.labelDiskon);
+            this.Controls.Add(this.labeldapatdiskon);
+            this.Controls.Add(this.pictureBox12);
             this.Controls.Add(this.pictureBox11);
             this.Controls.Add(this.pictureBox10);
             this.Controls.Add(this.pictureBox9);
@@ -270,6 +311,7 @@
             this.Text = "Home";
             this.Load += new System.EventHandler(this.Home_Load);
             this.groupBox1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
@@ -306,5 +348,8 @@
         private System.Windows.Forms.PictureBox pictureBox9;
         private System.Windows.Forms.PictureBox pictureBox10;
         private System.Windows.Forms.PictureBox pictureBox11;
+        private System.Windows.Forms.PictureBox pictureBox12;
+        private System.Windows.Forms.Label labeldapatdiskon;
+        private System.Windows.Forms.Label labelDiskon;
     }
 }

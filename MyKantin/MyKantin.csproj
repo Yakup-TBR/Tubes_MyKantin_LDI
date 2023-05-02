@@ -58,10 +58,19 @@
     <Compile Include="Home.Designer.cs">
       <DependentUpon>Home.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pilih Menu Makanan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pilih Menu Makanan.Designer.cs">
+      <DependentUpon>Pilih Menu Makanan.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pilih Menu Makanan.resx">
+      <DependentUpon>Pilih Menu Makanan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -92,6 +101,108 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vector.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bakso.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cari Makanan....png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gado - Gado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Makanan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Makanan-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Menu Kantin Kedai Yummy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Minuman.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nasi Goreng.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rectangle 37.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rectangle 47.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rectangle 51.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rectangle 55.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rectangle 56.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rectangle 57.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rectangle 58.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rectangle 59.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rectangle 60.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rectangle 61.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rectangle 62.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rectangle 63.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rectangle 64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rectangle 65.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rectangle 66.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rendang.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ri_search-line.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rp. 7.000.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rp. 8.000.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rp. 10.000.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rp. 10.000-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rp. 10.000-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rp. 12.000.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Siomay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Soto.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

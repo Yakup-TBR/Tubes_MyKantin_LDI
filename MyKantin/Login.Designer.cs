@@ -47,6 +47,7 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // label_username
             // 
@@ -73,7 +74,6 @@
             this.textbox_username.Name = "textbox_username";
             this.textbox_username.Size = new System.Drawing.Size(289, 30);
             this.textbox_username.TabIndex = 3;
-            this.textbox_username.Text = "Masukkan username anda disini";
             this.textbox_username.TextChanged += new System.EventHandler(this.textbox_username_TextChanged);
             // 
             // textBox_password

@@ -130,6 +130,9 @@
   <data name="ikon_search" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ikon_search.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="nasgor_spesial" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nasgor_spesial.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="WhatsApp Image 2023-04-05 at 11.481" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\WhatsApp Image 2023-04-05 at 11.48.001.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -145,6 +148,9 @@
   <data name="kedai_pilih" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\kedai_pilih.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="garis_hitam" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\garis_hitam.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="bayarsekrh" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bayarsekrh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -153,6 +159,9 @@
   </data>
   <data name="klaim voucher" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\klaim voucher.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mbahJontor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mbahJontor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="muka" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\muka.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -205,6 +214,9 @@
   <data name="0" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="garis_abu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\garis_abu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="merchant" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\merchant.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -214,7 +226,7 @@
   <data name="DAPOER EMAKQ_pilih" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DAPOER EMAKQ_pilih.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="mbahJontor" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mbahJontor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Sate_ayam" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sate_ayam.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

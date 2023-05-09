@@ -133,6 +133,26 @@ namespace MyKantin.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap garis_abu {
+            get {
+                object obj = ResourceManager.GetObject("garis_abu", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap garis_hitam {
+            get {
+                object obj = ResourceManager.GetObject("garis_hitam", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap geseputih {
             get {
                 object obj = ResourceManager.GetObject("geseputih", resourceCulture);
@@ -293,6 +313,16 @@ namespace MyKantin.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap nasgor_spesial {
+            get {
+                object obj = ResourceManager.GetObject("nasgor_spesial", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap omJenggot {
             get {
                 object obj = ResourceManager.GetObject("omJenggot", resourceCulture);
@@ -336,6 +366,16 @@ namespace MyKantin.Properties {
         internal static System.Drawing.Bitmap sate {
             get {
                 object obj = ResourceManager.GetObject("sate", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Sate_ayam {
+            get {
+                object obj = ResourceManager.GetObject("Sate_ayam", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

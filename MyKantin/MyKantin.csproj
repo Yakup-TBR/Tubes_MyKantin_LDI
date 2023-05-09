@@ -192,5 +192,29 @@
   <ItemGroup>
     <None Include="Resources\bayarsekrh.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search_bar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ikon_search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kedai ma ning_pilij.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kedai yummy_pilih.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kedai_pilih.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DAPOER EMAKQ_pilih.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\omJenggot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mbahJontor.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

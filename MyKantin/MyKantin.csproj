@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Favorit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Favorit.Designer.cs">
+      <DependentUpon>Favorit.cs</DependentUpon>
+    </Compile>
     <Compile Include="Keranjang.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +84,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Favorit.resx">
+      <DependentUpon>Favorit.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
     </EmbeddedResource>
